@@ -1,9 +1,10 @@
 'use client'
 
 import { useState, useRef } from 'react'
+import { useLocalStorage } from '../lib/use-local-storage'
 
 export default function OptionsList() {
-  const [options, setOptions] = useState<string[]>([])
+  const [options, setOptions] = useLocalStorage<string[]>('decisor:options:v1', [])
   const [inputValue, setInputValue] = useState('')
   const [showDuplicate, setShowDuplicate] = useState(false)
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
