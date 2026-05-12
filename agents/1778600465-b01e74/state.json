@@ -1,0 +1,15 @@
+{
+  "adw_id": "1778600465-b01e74",
+  "issue_number": 5,
+  "issue_class": "feature",
+  "branch": "feature/5-feat-dark-mode-toggle",
+  "spec_path": "specs/feat-dark-mode-toggle.md",
+  "pr_url": null,
+  "history": [
+    "[2026-05-12 12:41:05] adw_plan started for issue #5",
+    "[2026-05-12 12:41:05] fetched issue: feat: dark mode toggle",
+    "[2026-05-12 12:41:08] classified as: feature",
+    "[2026-05-12 12:41:08] created branch: feature/5-feat-dark-mode-toggle",
+    "[2026-05-12 12:43:04] spec generated: specs/feat-dark-mode-toggle.md"
+  ]
+}
