@@ -7,6 +7,9 @@ export default function OptionsList() {
   const [inputValue, setInputValue] = useState('')
   const [showDuplicate, setShowDuplicate] = useState(false)
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const [spinning, setSpinning] = useState(false)
+  const [displayLabel, setDisplayLabel] = useState<string | null>(null)
+  const [result, setResult] = useState<string | null>(null)
 
   function addOption() {
     const trimmed = inputValue.trim()
@@ -20,11 +23,29 @@ export default function OptionsList() {
     }
 
     setOptions(prev => [...prev, trimmed])
+    setResult(null)
     setInputValue('')
   }
 
   function removeOption(index: number) {
     setOptions(prev => prev.filter((_, i) => i !== index))
+    setResult(null)
+  }
+
+  function handleDecide() {
+    if (options.length < 2 || spinning) return
+    const winner = options[Math.floor(Math.random() * options.length)]
+    setResult(null)
+    setSpinning(true)
+    const interval = setInterval(() => {
+      setDisplayLabel(options[Math.floor(Math.random() * options.length)])
+    }, 80)
+    setTimeout(() => {
+      clearInterval(interval)
+      setSpinning(false)
+      setDisplayLabel(null)
+      setResult(winner)
+    }, 1500)
   }
 
   return (
@@ -65,6 +86,24 @@ export default function OptionsList() {
             </li>
           ))}
         </ul>
+      )}
+      {(spinning || result) && (
+        <div className="mt-2 flex items-center justify-center rounded-xl bg-zinc-100 py-6 text-2xl font-bold dark:bg-zinc-800">
+          {spinning ? (
+            <span className="text-zinc-700 dark:text-zinc-200">{displayLabel}</span>
+          ) : (
+            <span className="text-zinc-900 dark:text-zinc-50">🎯 {result}</span>
+          )}
+        </div>
+      )}
+      {options.length >= 2 && (
+        <button
+          onClick={handleDecide}
+          disabled={spinning}
+          className="mt-2 w-full rounded-xl bg-zinc-900 py-3 text-base font-semibold text-white hover:bg-zinc-700 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
+        >
+          Decidir
+        </button>
       )}
     </div>
   )
