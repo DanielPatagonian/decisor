@@ -4,7 +4,7 @@
   "issue_class": "bug",
   "branch": "bug/11-bug-dark-theme-does-not-persist-on-refre",
   "spec_path": "specs/bug-dark-theme-persist-on-refresh.md",
-  "pr_url": null,
+  "pr_url": "https://github.com/DanielPatagonian/decisor/pull/13",
   "history": [
     "[2026-05-12 13:02:49] adw_plan started for issue #11",
     "[2026-05-12 13:02:50] fetched issue: bug: dark theme does not persist on refresh (only toggle UI does)",
@@ -15,6 +15,10 @@
     "[2026-05-12 13:04:11] pushed branch bug/11-bug-dark-theme-does-not-persist-on-refre",
     "[2026-05-12 13:04:11] adw_build started",
     "[2026-05-12 13:04:11] on branch bug/11-bug-dark-theme-does-not-persist-on-refre",
-    "[2026-05-12 13:04:36] implementation complete"
+    "[2026-05-12 13:04:36] implementation complete",
+    "[2026-05-12 13:04:37] committed implementation",
+    "[2026-05-12 13:04:39] pushed branch",
+    "[2026-05-12 13:04:43] PR ready: https://github.com/DanielPatagonian/decisor/pull/13",
+    "[2026-05-12 13:04:43] adw_test started"
   ]
 }
