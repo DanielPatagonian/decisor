@@ -1,0 +1,24 @@
+{
+  "adw_id": "1778599815-115f92",
+  "issue_number": 3,
+  "issue_class": "feature",
+  "branch": "feature/3-feat-decidir-button-with-spin-animation",
+  "spec_path": "specs/feat-decidir-button-with-spin-animation.md",
+  "pr_url": "https://github.com/DanielPatagonian/decisor/pull/8",
+  "history": [
+    "[2026-05-12 12:30:15] adw_plan started for issue #3",
+    "[2026-05-12 12:30:16] fetched issue: feat: Decidir button with spin animation",
+    "[2026-05-12 12:30:20] classified as: feature",
+    "[2026-05-12 12:30:20] created branch: feature/3-feat-decidir-button-with-spin-animation",
+    "[2026-05-12 12:31:10] spec generated: specs/feat-decidir-button-with-spin-animation.md",
+    "[2026-05-12 12:31:10] committed spec",
+    "[2026-05-12 12:31:13] pushed branch feature/3-feat-decidir-button-with-spin-animation",
+    "[2026-05-12 12:31:13] adw_build started",
+    "[2026-05-12 12:31:13] on branch feature/3-feat-decidir-button-with-spin-animation",
+    "[2026-05-12 12:31:54] implementation complete",
+    "[2026-05-12 12:31:55] committed implementation",
+    "[2026-05-12 12:31:57] pushed branch",
+    "[2026-05-12 12:32:01] PR ready: https://github.com/DanielPatagonian/decisor/pull/8",
+    "[2026-05-12 12:32:01] adw_test started"
+  ]
+}
