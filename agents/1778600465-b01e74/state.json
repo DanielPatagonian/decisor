@@ -10,6 +10,11 @@
     "[2026-05-12 12:41:05] fetched issue: feat: dark mode toggle",
     "[2026-05-12 12:41:08] classified as: feature",
     "[2026-05-12 12:41:08] created branch: feature/5-feat-dark-mode-toggle",
-    "[2026-05-12 12:43:04] spec generated: specs/feat-dark-mode-toggle.md"
+    "[2026-05-12 12:43:04] spec generated: specs/feat-dark-mode-toggle.md",
+    "[2026-05-12 12:43:05] committed spec",
+    "[2026-05-12 12:43:07] pushed branch feature/5-feat-dark-mode-toggle",
+    "[2026-05-12 12:43:07] adw_build started",
+    "[2026-05-12 12:43:07] on branch feature/5-feat-dark-mode-toggle",
+    "[2026-05-12 12:46:10] implementation complete"
   ]
 }
