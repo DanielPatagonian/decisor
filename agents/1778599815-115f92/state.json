@@ -1,0 +1,15 @@
+{
+  "adw_id": "1778599815-115f92",
+  "issue_number": 3,
+  "issue_class": "feature",
+  "branch": "feature/3-feat-decidir-button-with-spin-animation",
+  "spec_path": "specs/feat-decidir-button-with-spin-animation.md",
+  "pr_url": null,
+  "history": [
+    "[2026-05-12 12:30:15] adw_plan started for issue #3",
+    "[2026-05-12 12:30:16] fetched issue: feat: Decidir button with spin animation",
+    "[2026-05-12 12:30:20] classified as: feature",
+    "[2026-05-12 12:30:20] created branch: feature/3-feat-decidir-button-with-spin-animation",
+    "[2026-05-12 12:31:10] spec generated: specs/feat-decidir-button-with-spin-animation.md"
+  ]
+}
