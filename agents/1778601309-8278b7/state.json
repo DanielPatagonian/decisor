@@ -4,7 +4,7 @@
   "issue_class": "chore",
   "branch": "chore/6-chore-chore-replace-boilerplate-with-dec",
   "spec_path": "specs/chore-replace-boilerplate-with-decisor-landing.md",
-  "pr_url": null,
+  "pr_url": "https://github.com/DanielPatagonian/decisor/pull/12",
   "history": [
     "[2026-05-12 12:55:09] adw_plan started for issue #6",
     "[2026-05-12 12:55:09] fetched issue: chore: chore: replace boilerplate with Decisor landing (#1)",
@@ -15,6 +15,10 @@
     "[2026-05-12 12:56:19] pushed branch chore/6-chore-chore-replace-boilerplate-with-dec",
     "[2026-05-12 12:56:19] adw_build started",
     "[2026-05-12 12:56:19] on branch chore/6-chore-chore-replace-boilerplate-with-dec",
-    "[2026-05-12 12:57:47] implementation complete"
+    "[2026-05-12 12:57:47] implementation complete",
+    "[2026-05-12 12:57:48] committed implementation",
+    "[2026-05-12 12:57:51] pushed branch",
+    "[2026-05-12 12:57:54] PR ready: https://github.com/DanielPatagonian/decisor/pull/12",
+    "[2026-05-12 12:57:54] adw_test started"
   ]
 }
