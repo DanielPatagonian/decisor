@@ -1,0 +1,15 @@
+{
+  "adw_id": "1778598401-b65abb",
+  "issue_number": 1,
+  "issue_class": "chore",
+  "branch": "chore/1-chore-replace-boilerplate-with-decisor-l",
+  "spec_path": "specs/chore-replace-boilerplate-with-decisor-landing.md",
+  "pr_url": null,
+  "history": [
+    "[2026-05-12 12:06:41] adw_plan started for issue #1",
+    "[2026-05-12 12:06:42] fetched issue: chore: replace boilerplate with Decisor landing",
+    "[2026-05-12 12:06:48] classified as: chore",
+    "[2026-05-12 12:06:48] created branch: chore/1-chore-replace-boilerplate-with-decisor-l",
+    "[2026-05-12 12:07:24] spec generated: specs/chore-replace-boilerplate-with-decisor-landing.md"
+  ]
+}
