@@ -4,7 +4,7 @@
   "issue_class": "feature",
   "branch": "feature/5-feat-dark-mode-toggle",
   "spec_path": "specs/feat-dark-mode-toggle.md",
-  "pr_url": null,
+  "pr_url": "https://github.com/DanielPatagonian/decisor/pull/10",
   "history": [
     "[2026-05-12 12:41:05] adw_plan started for issue #5",
     "[2026-05-12 12:41:05] fetched issue: feat: dark mode toggle",
@@ -15,6 +15,10 @@
     "[2026-05-12 12:43:07] pushed branch feature/5-feat-dark-mode-toggle",
     "[2026-05-12 12:43:07] adw_build started",
     "[2026-05-12 12:43:07] on branch feature/5-feat-dark-mode-toggle",
-    "[2026-05-12 12:46:10] implementation complete"
+    "[2026-05-12 12:46:10] implementation complete",
+    "[2026-05-12 12:46:11] committed implementation",
+    "[2026-05-12 12:46:14] pushed branch",
+    "[2026-05-12 12:46:17] PR ready: https://github.com/DanielPatagonian/decisor/pull/10",
+    "[2026-05-12 12:46:17] adw_test started"
   ]
 }
