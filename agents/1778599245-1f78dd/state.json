@@ -10,6 +10,11 @@
     "[2026-05-12 12:20:46] fetched issue: feat: add and list options",
     "[2026-05-12 12:20:49] classified as: feature",
     "[2026-05-12 12:20:49] created branch: feature/2-feat-add-and-list-options",
-    "[2026-05-12 12:21:45] spec generated: specs/feat-add-and-list-options.md"
+    "[2026-05-12 12:21:45] spec generated: specs/feat-add-and-list-options.md",
+    "[2026-05-12 12:21:45] committed spec",
+    "[2026-05-12 12:21:48] pushed branch feature/2-feat-add-and-list-options",
+    "[2026-05-12 12:21:48] adw_build started",
+    "[2026-05-12 12:21:48] on branch feature/2-feat-add-and-list-options",
+    "[2026-05-12 12:22:45] implementation complete"
   ]
 }
