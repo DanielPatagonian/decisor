@@ -4,7 +4,7 @@
   "issue_class": "feature",
   "branch": "feature/2-feat-add-and-list-options",
   "spec_path": "specs/feat-add-and-list-options.md",
-  "pr_url": null,
+  "pr_url": "https://github.com/DanielPatagonian/decisor/pull/7",
   "history": [
     "[2026-05-12 12:20:45] adw_plan started for issue #2",
     "[2026-05-12 12:20:46] fetched issue: feat: add and list options",
@@ -15,6 +15,10 @@
     "[2026-05-12 12:21:48] pushed branch feature/2-feat-add-and-list-options",
     "[2026-05-12 12:21:48] adw_build started",
     "[2026-05-12 12:21:48] on branch feature/2-feat-add-and-list-options",
-    "[2026-05-12 12:22:45] implementation complete"
+    "[2026-05-12 12:22:45] implementation complete",
+    "[2026-05-12 12:22:46] committed implementation",
+    "[2026-05-12 12:22:48] pushed branch",
+    "[2026-05-12 12:22:52] PR ready: https://github.com/DanielPatagonian/decisor/pull/7",
+    "[2026-05-12 12:22:52] adw_test started"
   ]
 }
