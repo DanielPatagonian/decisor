@@ -1,0 +1,15 @@
+{
+  "adw_id": "1778601769-1f0ee7",
+  "issue_number": 11,
+  "issue_class": "bug",
+  "branch": "bug/11-bug-dark-theme-does-not-persist-on-refre",
+  "spec_path": "specs/bug-dark-theme-persist-on-refresh.md",
+  "pr_url": null,
+  "history": [
+    "[2026-05-12 13:02:49] adw_plan started for issue #11",
+    "[2026-05-12 13:02:50] fetched issue: bug: dark theme does not persist on refresh (only toggle UI does)",
+    "[2026-05-12 13:02:54] classified as: bug",
+    "[2026-05-12 13:02:54] created branch: bug/11-bug-dark-theme-does-not-persist-on-refre",
+    "[2026-05-12 13:04:08] spec generated: specs/bug-dark-theme-persist-on-refresh.md"
+  ]
+}
