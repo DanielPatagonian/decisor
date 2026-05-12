@@ -1,0 +1,15 @@
+{
+  "adw_id": "1778599245-1f78dd",
+  "issue_number": 2,
+  "issue_class": "feature",
+  "branch": "feature/2-feat-add-and-list-options",
+  "spec_path": "specs/feat-add-and-list-options.md",
+  "pr_url": null,
+  "history": [
+    "[2026-05-12 12:20:45] adw_plan started for issue #2",
+    "[2026-05-12 12:20:46] fetched issue: feat: add and list options",
+    "[2026-05-12 12:20:49] classified as: feature",
+    "[2026-05-12 12:20:49] created branch: feature/2-feat-add-and-list-options",
+    "[2026-05-12 12:21:45] spec generated: specs/feat-add-and-list-options.md"
+  ]
+}
