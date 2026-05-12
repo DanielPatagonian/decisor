@@ -4,18 +4,18 @@ export function useLocalStorage<T>(
   key: string,
   initialValue: T
 ): [T, Dispatch<SetStateAction<T>>] {
-  const [storedValue, setStoredValue] = useState<T>(initialValue)
-
-  useEffect(() => {
+  const [storedValue, setStoredValue] = useState<T>(() => {
+    if (typeof window === 'undefined') return initialValue
     try {
       const item = localStorage.getItem(key)
       if (item !== null) {
-        setStoredValue(JSON.parse(item) as T)
+        return JSON.parse(item) as T
       }
     } catch {
       // keep initialValue
     }
-  }, [])
+    return initialValue
+  })
 
   useEffect(() => {
     try {
